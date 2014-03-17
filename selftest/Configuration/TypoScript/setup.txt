@@ -11,6 +11,9 @@ plugin.tx_selftest {
 		# uncomment the following line to enable the new Property Mapper.
 		# rewrittenPropertyMapper = 1
 	}
+	settings {
+		disableLoadingOfJQueryLibrary = {$plugin.tx_selftest.settings.disableLoadingOfJQueryLibrary}
+	}
 }
 
 plugin.tx_selftest._CSS_DEFAULT_STYLE (

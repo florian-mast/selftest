@@ -47,8 +47,15 @@ class SelftestController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      *
      * @return void
      */
-    public function initializeAction() {    
-        $GLOBALS['TSFE']->additionalFooterData['load_jquery'] = '<script type="text/javascript" src="'. \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('selftest') .'Resources/Public/JavaScript/jquery-1.11.0.min.js"></script>'; 
+    public function initializeAction() {
+        
+        //load jQuery library if not disabled in Typoscript or in Plugin settigs
+        if ( !(intval($this->settings['disableLoadingOfJQueryLibrary'])>0)) {     
+            if ( intval($this->settings['javascript'])>0) {
+                $GLOBALS['TSFE']->additionalFooterData['load_jquery'] = 
+                '<script type="text/javascript" src="'. \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('selftest') .'Resources/Public/JavaScript/jquery-1.11.0.min.js"></script>'; 
+            }   
+        } 
         $GLOBALS['TSFE']->additionalFooterData['tx_selftest_eval'] = '<script type="text/javascript" src="'. \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('selftest')
          .'Resources/Public/JavaScript/evalSelftest.js"></script>';  
          

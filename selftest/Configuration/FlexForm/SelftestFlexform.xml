@@ -13,12 +13,11 @@
        <settings.quantity>
         <TCEforms>
          <label>LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.select_selftest</label>
-		 <onChange>ritem_number_listvieweload</onChange>
          <config>
           <type>select</type>
            <items>
               <numIndex index="0" type="array">
-                    <numIndex index="0">Bitte Wählen</numIndex>
+                    <numIndex index="0">LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.please_select</numIndex>
                     <numIndex index="1"></numIndex>
               </numIndex>
           </items> 
@@ -33,5 +32,24 @@
      </el>
      </ROOT>
     </sDEF>
+   <sDEFJS>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.general</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+      <el>
+       <settings.javascript>
+        <TCEforms>
+         <label>LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.jquery</label>
+		 <config>
+		 	<type>check</type>
+		 	<default>1</default>
+		 </config>
+        </TCEforms>
+       </settings.javascript>       
+     </el>
+     </ROOT>
+    </sDEFJS>    
    </sheets>
  </T3DataStructure>

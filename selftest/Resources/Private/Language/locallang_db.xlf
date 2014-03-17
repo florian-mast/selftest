@@ -32,12 +32,23 @@
 				<source>Result Options</source>
 			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_selftest.select">
-				<source>Auswahl</source>
+				<source>Select Self-Test</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.please_select">
+				<source>please select</source>
 			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_selftest.select_selftest">
-				<source>Selftest auswählen</source>
+				<source>Please select a Self Test:</source>
 			</trans-unit>
-
+			<trans-unit id="tx_selftest_domain_model_selftest.general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.javascript">
+				<source>Include JavaScript on plugin page</source>
+			</trans-unit>			
+			<trans-unit id="tx_selftest_domain_model_selftest.jquery">
+				<source>Include jQuery-Library on plugin page</source>
+			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_block">
 				<source>Block</source>
 			</trans-unit>
