@@ -1,0 +1,20 @@
+2014-03-03 version 1.3.1 Florian Mast <flo.mast@web.de>
+	added condition in fluid if image is not inserted in resultoption
+
+2014-03-03 version 1.3.0 Florian Mast <flo.mast@web.de>
+	encode rowkeys for answers with md5 from whole string
+
+2014-03-03 version 1.2.0 Florian Mast <flo.mast@web.de>
+	added checkbox in Answerblock, enbles answers block
+	without displaying a label row
+
+
+2014-03-05 Version 1.1.1
+	ext_tables.sql, 
+	providing more chars for explanation in result table
+
+2014-03-05 Version 1.1.0
+	Changed Javascript
+	
+2914-03-04 Version 1.0.0
+	First complete version
