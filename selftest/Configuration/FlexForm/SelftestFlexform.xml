@@ -1,0 +1,37 @@
+<T3DataStructure>
+  <meta>
+        <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+   <sDEF>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.select</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+      <el>
+       <settings.quantity>
+        <TCEforms>
+         <label>LLL:EXT:selftest/Resources/Private/Language/locallang_db.xlf:tx_selftest_domain_model_selftest.select_selftest</label>
+		 <onChange>ritem_number_listvieweload</onChange>
+         <config>
+          <type>select</type>
+           <items>
+              <numIndex index="0" type="array">
+                    <numIndex index="0">Bitte Wählen</numIndex>
+                    <numIndex index="1"></numIndex>
+              </numIndex>
+          </items> 
+          <foreign_table>tx_selftest_domain_model_selftest</foreign_table>
+          <foreign_table_where> ORDER BY tx_selftest_domain_model_selftest.title DESC</foreign_table_where>
+          <size>1</size>
+          <min>1</min>
+          <max>1</max>
+         </config>
+        </TCEforms>
+       </settings.quantity>
+     </el>
+     </ROOT>
+    </sDEF>
+   </sheets>
+ </T3DataStructure>

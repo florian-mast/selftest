@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-19T12:17:52Z" product-name="selftest">
+		<header/>
+		<body>
+
+			<trans-unit id="title.description">
+				<source>the title of the solution</source>
+			</trans-unit>
+			<trans-unit id="explanation.description">
+				<source>Explaning the result</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="lower_limit.description">
+				<source>Result is shown if points are equal or above the lower limit</source>
+			</trans-unit>
+			<trans-unit id="upper_limit.description">
+				<source>Result is shown if points are equal or lower the upper limit and above or equal to lower limit</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

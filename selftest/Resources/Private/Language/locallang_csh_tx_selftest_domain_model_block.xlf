@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-19T12:17:52Z" product-name="selftest">
+		<header/>
+		<body>
+
+			<trans-unit id="label.description">
+				<source>The Label for the answer block </source>
+			</trans-unit>
+			<trans-unit id="answers.description">
+				<source>all answer statements</source>
+			</trans-unit>
+			<trans-unit id="options.description">
+				<source>for selection available options (will be applied for each answerstatement)</source>
+			</trans-unit>
+			<trans-unit id="result_options.description">
+				<source>Possible Results</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

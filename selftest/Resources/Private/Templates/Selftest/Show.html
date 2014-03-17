@@ -1,0 +1,87 @@
+<f:layout name="Default" />
+
+
+<f:section name="main">
+
+<f:flashMessages />
+	
+
+<div class="selftest">
+
+
+	<h3 class="selftest-title">
+	{selftest.title}
+	</h3>
+
+	<h4 class="test-author">
+	{selftest.source}
+	</h4>
+	
+	<f:form action="show">
+		<div class="test-table">
+			<table cellspacing="0">
+				<tr>
+					<th class="label-column">{selftest.label}</th>
+					<f:for each="{selftest.options}" as="option"><th>{option.title}</th></f:for>		
+				</tr>
+				<f:for each="{selftest.answers}" as="answer">
+					<tr>
+						<td class="first-cell-in-row labe-cell">{answer.statement}</td>
+						<f:for each="{selftest.options}" as="option"><td><f:form.radio name="{answer.statementKey}" value="{option.points}" /></td></f:for>		
+					</tr>
+				</f:for>
+			
+				<f:if condition="{selftest.answerBlocks}">
+					<f:for each="{selftest.answerBlocks}" as="block">
+						<f:if condition="{block.showLabelrow}>">
+							<tr>
+								<td class="label-column middle-header">{block.label}</td>
+								<f:for each="{block.options}" as="option"><td class="middle-header">{option.title}</td></f:for>		
+							</tr>
+						</f:if>			
+						<f:for each="{block.answers}" as="answer">
+							<tr>
+								<td class="first-cell-in-row labe-cell">{answer.statement}</td>
+								<f:for each="{block.options}" as="option"><td><f:form.radio name="{answer.statementKey}" value="{option.points}" /></td></f:for>		
+							</tr>
+						</f:for>					
+					</f:for>
+				</f:if>
+			
+			</table>			
+		</div>
+
+		
+		<f:form.submit class="selftestSubmit" name="submitSelftest" value="{f:translate(key:'tx_selftest_domain_model_selftest.calculate_result')}"></f:form.submit><br /><br />
+
+		<f:for each="{selftest.resultOptions}" as="result">
+			<div class="result-posibility hidden">
+				<h4 class="results-title">{result.title}</h4>
+				<f:if condition="{result.image}">
+					<div class="image-column"><f:image src="{result.image}" width="150" alt="{result.image}" />
+					</div>
+				</f:if>
+				<div class="text-column">
+			 	<p>{result.explanation}</p>
+			 	</div>
+				<div class="clearer"></div>
+			 	<p class="hidden lower-limit">{result.lowerLimit}</p>
+			 	<p class="hidden upper-limit">{result.upperLimit}</p>
+			</div>
+		</f:for>
+
+		<f:form.submit name="resetSelftest" value="{f:translate(key:'tx_selftest_domain_model_selftest.reset')}"></f:form.submit>
+
+	</f:form>
+
+	<div class="hidden labels-for-js">
+		<p class="select-answer"><f:translate key="tx_selftest_domain_model_selftest.please_select_answer"></f:translate></p>
+		<p class="result"><f:translate key="tx_selftest_domain_model_selftest.result"></f:translate></p>
+		<p class="points"><f:translate key="tx_selftest_domain_model_selftest.points"></f:translate></p>
+	</div>
+
+	
+</div>
+
+
+</f:section>

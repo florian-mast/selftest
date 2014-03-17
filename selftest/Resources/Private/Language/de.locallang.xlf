@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-02-19T12:17:52Z" product-name="selftest">
+		<header/>
+		<body>
+			<trans-unit id="tx_selftest_domain_model_selftest.calculate_result">
+				<target>Auswertung</target>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.reset">
+				<target>Zurücksetzen</target>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.please_select_answer">
+				<target>Bitte wählen Sie jeweils eine Antwort aus!</target>
+			</trans-unit>	
+			<trans-unit id="tx_selftest_domain_model_selftest.result">
+				<target>Ergebnis</target>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.points">
+				<target>Punkte</target>
+			</trans-unit>						
+		</body>
+	</file>
+</xliff>
+
+

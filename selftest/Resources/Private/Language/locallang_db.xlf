@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-19T12:17:52Z" product-name="selftest">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_selftest_domain_model_selftest">
+				<source>Selftest</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.source">
+				<source>Source</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.label">
+				<source>Label</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.label_row">
+				<source>Show label row for the answer block</source>
+			</trans-unit>			
+			<trans-unit id="tx_selftest_domain_model_selftest.answers">
+				<source>Answers</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.options">
+				<source>Options</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.answer_blocks">
+				<source>Additional Answer Block (Optional)</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.result_options">
+				<source>Result Options</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.select">
+				<source>Auswahl</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.select_selftest">
+				<source>Selftest auswählen</source>
+			</trans-unit>
+
+			<trans-unit id="tx_selftest_domain_model_block">
+				<source>Block</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_selftest_domain_model_option">
+				<source>Option</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_option.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_option.points">
+				<source>Points</source>
+			</trans-unit>
+
+			<trans-unit id="tx_selftest_domain_model_answer">
+				<source>Answer</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_answer.statement">
+				<source>Statement</source>
+			</trans-unit>
+
+			<trans-unit id="tx_selftest_domain_model_result">
+				<source>Result</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_result.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_result.explanation">
+				<source>Explanation</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_result.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_result.lower_limit">
+				<source>Lower Limit</source>
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_result.upper_limit">
+				<source>Upper Limit</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

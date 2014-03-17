@@ -1,0 +1,53 @@
+plugin.tx_selftest {
+	view {
+		templateRootPath = {$plugin.tx_selftest.view.templateRootPath}
+		partialRootPath = {$plugin.tx_selftest.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_selftest.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_selftest.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_selftest._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-selftest table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-selftest table th {
+		font-weight:bold;
+	}
+
+	.tx-selftest table td {
+		vertical-align:top;
+	}
+	
+	.tx-selftest .image-column {
+		float: left;
+		margin-right: 10px;
+	}
+)
+
+config.tx_extbase.persistence.classes {
+    TYPO3\Selftest\Domain\Model\Option {
+        mapping {
+            columns.sorting.mapOnProperty = sorting
+        }
+    }
+        
+}

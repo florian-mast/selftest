@@ -1,0 +1,14 @@
+plugin.tx_selftest {
+	view {
+		# cat=plugin.tx_selftest/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:selftest/Resources/Private/Templates/
+		# cat=plugin.tx_selftest/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:selftest/Resources/Private/Partials/
+		# cat=plugin.tx_selftest/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:selftest/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_selftest//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
