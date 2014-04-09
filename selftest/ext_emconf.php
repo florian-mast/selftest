@@ -33,9 +33,9 @@ show result according to selection in from',
 	'version' => '1.3.5',
 	'constraints' => array(
 		'depends' => array(
-			'extbase' => '6.0',
-			'fluid' => '6.0',
-			'typo3' => '6.0',
+            'typo3' => '6.0.0-6.2.99',
+            'extbase' => '6.0.0-6.2.99',
+            'fluid' => '6.0.0-6.2.99',
 		),
 		'conflicts' => array(
 		),
