@@ -30,7 +30,7 @@ show result according to selection in from',
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'version' => '1.3.2',
+	'version' => '1.3.5',
 	'constraints' => array(
 		'depends' => array(
 			'extbase' => '6.0',

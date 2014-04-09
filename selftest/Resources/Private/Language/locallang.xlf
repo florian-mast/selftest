@@ -18,7 +18,10 @@
 			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_selftest.points">
 				<source>Points</source>
-			</trans-unit>									
+			</trans-unit>	
+			<trans-unit id="tx_selftest_domain_model_selftest.scoring">
+				<source>Scoring</source>
+			</trans-unit>											
 		</body>
 	</file>
 </xliff>

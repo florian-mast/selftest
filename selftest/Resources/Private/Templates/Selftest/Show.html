@@ -56,6 +56,7 @@
 
 		<f:for each="{selftest.resultOptions}" as="result">
 			<div class="result-posibility hidden">
+				<h2 class="scoring"><f:translate key="tx_selftest_domain_model_selftest.scoring"></f:translate>:</h2>
 				<h4 class="results-title">{result.title}</h4>
 				<f:if condition="{result.image}">
 					<div class="image-column"><f:image src="{result.image}" width="150" alt="{result.image}" />

@@ -1,3 +1,13 @@
+2014-04-08 version 1.3.5 Florian Mast <flo.mast@web.de>
+	added CSS in Typoscript setup.txt (do not show hidden records)
+	updated manual.sxw
+
+2014-04-03 version 1.3.4 Florian Mast <flo.mast@web.de>
+	added label scoring, changed locallang.xlf, de.locallang.xlf an Show.html in Templates/Selftest
+
+2014-04-02 version 1.3.3 Florian Mast <flo.mast@web.de>
+	changed evaluation in evalSelftest.js
+
 2014-03-17 version 1.3.2 Florian Mast <flo.mast@web.de>
 	changed SelftestFlexfomr.xml, locallang_db.xlf, SelftestContreller.php, Configuration/TypoScript/setup.txt and constants.txt
 	added Options for not loading jQuery library on the plugin page

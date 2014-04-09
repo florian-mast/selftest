@@ -10,14 +10,17 @@
 				<target>Zurücksetzen</target>
 			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_selftest.please_select_answer">
-				<target>Bitte wählen Sie jeweils eine Antwort aus!</target>
+				<target>Bitte wählen Sie für jede Zeile jeweils eine Antwort aus!</target>
 			</trans-unit>	
 			<trans-unit id="tx_selftest_domain_model_selftest.result">
 				<target>Ergebnis</target>
 			</trans-unit>
 			<trans-unit id="tx_selftest_domain_model_selftest.points">
 				<target>Punkte</target>
-			</trans-unit>						
+			</trans-unit>
+			<trans-unit id="tx_selftest_domain_model_selftest.scoring">
+				<target>Auswertung</target>
+			</trans-unit>									
 		</body>
 	</file>
 </xliff>

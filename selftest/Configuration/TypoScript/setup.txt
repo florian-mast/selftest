@@ -44,6 +44,15 @@ plugin.tx_selftest._CSS_DEFAULT_STYLE (
 		float: left;
 		margin-right: 10px;
 	}
+	
+	.tx-selftest .hidden {
+		display: none
+	}
+
+	.tx-selftest .clearer {
+		clear: both
+	}
+
 )
 
 config.tx_extbase.persistence.classes {
